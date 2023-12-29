@@ -38,7 +38,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: dist-files
-          path: dist
+          path: /
       - name:
         run: ls -la
       - name: Deploy
